@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>small Finance</title>
+    <link rel="stylesheet" type="text/css" href="../assets/Semantic-UI-CSS-master/semantic.min.css">
+    <link rel="stylesheet" type="text/css" href="../style/main.css">
+    <script src="../assets/jquery-1.9.1.min.js"></script>
+    <script src="../assets/Semantic-UI-CSS-master/semantic.min.js"></script>
+    <script src="../script/main.js"></script>
+</head>
+
+<body>
+    <div class="center">
+        <div id="header">
+            <div class="textCenter">
+                <label class="ui massive basic green circular label">Small Finance</label>
+            </div><br>
+            <div class="textCenter">
+                <div class="ui large basic circular label">Guilherme Solski Alves</div>
+                <div>
+                    <button class="circular ui basic icon button">
+                        <i class="angle double left icon"></i>
+                    </button>
+                    <label id="month"> 02/20 </label>
+                    <button class="circular ui basic icon button">
+                        <i class="angle double right icon"></i>
+                    </button>
+                </div>
+                <div>
+                    <div id="allInput">Input: <i class="green arrow up icon"></i> $10 </div>
+                    <div id="allOutput">Output: <i class="red arrow down icon"></i> $15 </div>
+                    <div id="allBalance">Balance: <i class="red arrow down icon"></i> $5</div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="ui raised segments margin" id="body">
+        <div class="ui attached segment">
+            <div class="ui accordion" id="types">
+            </div>
+        </div>
+    </div>
+
+    </div>
+    </div>
+    </div>
+
+    <div class="ui modal" id="addModal">
+        <i class="close icon"></i>
+        <div class="header">Add Another Type</div>
+        <div class="content">
+            <div class="ui huge transparent input row"><input type="text" placeholder="Name" id="login"></div> <br> <br>
+        </div>
+        <div class="actions">
+            <div class="ui red basic button">Cancel</div>
+            <div class="ui blue basic button">OK</div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+.center{
+    position: absolute;
+    top: 10rem;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+.textCenter{
+    text-align: center;
+}   
+.margin{
+    position: absolute;
+    top: 20rem !important;
+    margin-left: 25% !important;
+    margin-right: 25% !important;
+}
+.marginTop{
+    margin-top: 1rem;
+}
+.pointer{
+    cursor: pointer;
+}
+.overflowX{
+    width: 100%;
+    overflow-x: scroll;
+}
+.overflowX {
+    overflow: auto;
+    white-space: nowrap;
+  }
+  
